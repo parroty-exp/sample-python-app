@@ -6,5 +6,5 @@ groups:
 dependencies:
   codeql/python-all: "*"
   codeql/suite-helpers: "*"
-suites: codeql-suites
+suites: my-custom-suites
 extractor: python
