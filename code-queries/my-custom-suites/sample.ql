@@ -1,3 +1,18 @@
+/**
+ * @name First parameter of a method is not named 'hoge'
+ * @description Using an alternative name for the first parameter of an instance method makes
+ *              code more difficult to read; PEP8 states that the first parameter to instance
+ *              methods should be 'hoge'.
+ * @kind problem
+ * @tags maintainability
+ *       readability
+ *       convention
+ * @problem.severity recommendation
+ * @sub-severity high
+ * @precision very-high
+ * @id parroty-exp/not-named-hoge
+ */
+
 import python
 import semmle.python.libraries.Zope
 
