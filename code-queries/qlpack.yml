@@ -1,0 +1,10 @@
+name: parroty-exp/python-queries
+version: 0.0.1
+groups: 
+  - python
+  - queries
+dependencies:
+  codeql/python-all: "*"
+  codeql/suite-helpers: "*"
+suites: codeql-suites
+extractor: python
