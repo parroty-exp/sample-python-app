@@ -5,6 +5,8 @@ class Server(object):
     def run2(message):
         print("Hello {} from run2".format(message))
 
+    def run(hoge):
+        print("Hello from hoge")
 
 if __name__== "__main__":
     server = Server()
