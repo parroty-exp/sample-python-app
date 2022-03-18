@@ -14,6 +14,9 @@ class Server(object):
     def run4(hoge):
         print("Hello from hoge")
 
+    def run5(hoge):
+        print("Hello from hoge")
+
 if __name__== "__main__":
     server = Server()
     server.run1()
